@@ -23,7 +23,16 @@ for (const key in myobj) {
 // for each loop
 const coding = ["js","ruby","java","python","cpp"]
 
-coding.forEach(function (item){
-    console.log(item)
-})
+// coding.forEach(function (item){
+//     console.log(item)
+// })
+
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+const newnums = myNums.filter((nums) =>nums>5)
+// console.log(newnums);
+
+
+
+
+
    
